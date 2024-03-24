@@ -302,7 +302,6 @@ h1 {
 
 .our-portfolio-global-list {
   display: flex;
-  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
