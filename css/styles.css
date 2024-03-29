@@ -198,6 +198,8 @@ h1 {
 .advantages-global-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .advantages-list {
@@ -205,6 +207,8 @@ h1 {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .advantages-title {
@@ -247,6 +251,8 @@ h1 {
   gap: 24px;
   align-items: center;
   justify-content: center;
+  padding-left: 0;
+  margin: 0;
 }
 
 .our-team-list {
