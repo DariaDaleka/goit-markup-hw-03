@@ -11,12 +11,8 @@ img {
 }
 
 header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin: 0;
+  padding: 24px 0;
 }
 
 .flex {
@@ -40,7 +36,8 @@ ol {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 
@@ -57,9 +54,6 @@ h3 {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 332px;
 }
 
 .logo-header {
@@ -76,9 +70,7 @@ h3 {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  margin-top: 24px;
   margin-right: 76px;
-  margin-bottom: 24px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -105,12 +97,9 @@ h3 {
 
 .contacts {
   font-style: normal;
-  margin-left: auto;
 }
 .contacts-list {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
   gap: 40px;
 }
 .link {
